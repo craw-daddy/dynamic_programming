@@ -1,0 +1,40 @@
+src/*
+venv/*
+
+
+# ipynb files
+**/.ipynb_checkpoints/*
+
+# OSX
+**.DS_Store
+
+# python files
+**.pyc
+
+# Playpen:
+PlayPen/**
+
+# text editor files
+*.swp
+[#]*[#]
+*~
+
+# virtualenv files
+bin/
+include/
+
+# git merge files
+*.orig
+**.nogit
+
+# log files
+logs/
+
+# pytest cache
+.pytest_cache
+
+# pycache:
+*/__pycache__/
+
+# jupyter stuff
+.local
